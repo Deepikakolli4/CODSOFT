@@ -1,0 +1,110 @@
+body{
+    background-color:#ECE3F0;
+    background-image: url('https://image.slidesdocs.com/responsive-images/docs/stationery-for-education-in-a-bubble-page-border-background-word-template_3737a7d4a6__1131_1600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 20px; 
+    text-align: center;
+    font-size: 50px;
+}
+.calculator {
+    width: 800px;
+    height: 790px;
+    border: 15px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 1px auto; 
+    background-color: #FBE7C6;
+}
+.numpad {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.operators {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: auto; 
+    height: auto; 
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #ccc;
+}
+button {
+    width: 250px; 
+    height: 90px;
+    font-size: 24px; 
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.answer-box {
+    width: calc(95% - 20px); 
+    height: 100px; 
+    border: 15px solid black; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    font-size: 24px; 
+    text-align: right; 
+    background-color: black;
+    color:#ccc;
+}
+
+@media only screen and (max-width: 768px) {
+    .calculator {
+        width: 80%; 
+        height: 90%;
+        max-width: none; 
+    }
+
+    .numpad, .operators {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    button {
+        width: 90%; 
+        height: 60px; 
+        font-size: 20px; 
+    }
+
+    .answer-box {
+        width: 80%; 
+        height: 70px; 
+        font-size: 20px; 
+    }
+}
+@media only screen and (min-width: 769px) {
+    .calculator {
+        width: 70%; 
+        max-width: 70%; 
+    }
+
+    button {
+        height: 80px; 
+        width:90%;
+        font-size: 24px; 
+    }
+
+    .answer-box {
+        height: 100px; 
+        font-size: 24px; 
+    }
+}

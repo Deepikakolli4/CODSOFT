@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/background/20230401/original/pngtree-castle-game-scene-mysterious-fantasy-background-picture-image_2251025.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid #000;
+}
+
+.container {
+    text-align: center;
+    padding: 10px; 
+}
+
+.centered {
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.centered h1 {
+    font-family: cursive;
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.centered p {
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.social-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.social-icon {
+    margin: 0 150px;
+}
+
+.social-icon img {
+    width: 50px;
+}
+
+.social-text {
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    font-size: 10px;
+    color:white;
+    text-decoration: underline;
+}
+
+.play-button {
+    display: inline-block;
+    background-color:black;
+    color: white;
+    padding: 30px 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover {
+    background-color: #51098c;
+}
+.top-container {
+    text-align: right;
+    padding: 10px;
+}
+
+.sign-in {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.sign-in:hover {
+    background-color: white;
+    color: black;
+}
+
+.about-us {
+    margin-left: 20px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+.login-buttons {
+    text-align: right; 
+}
+.about-us .top-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid white; 
+}
+
+.about-us .top-link:hover {
+    background-color:white;
+    border-color:white; 
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    
+
+    .centered h1 {
+        font-size: 80px; 
+    }
+
+    .centered p {
+        font-size: 24px; 
+    }
+
+    .social-icon {
+        margin: 0 30px;
+    }
+
+    .social-icon img {
+        width: 30px; 
+    }
+
+    p {
+        font-size: 12px; 
+    }
+
+    .play-button {
+        padding: 15px 25px; 
+        font-size: 16px; 
+    }
+
+    .about-us {
+        margin-left: 5px; 
+    }
+
+    .header {
+        padding: 3px 8px; 
+    }
+
+    .profile img {
+        width: 25px; 
+        height: 25px; 
+    }
+
+    .login-buttons {
+        text-align: center; 
+    }
+
+    .about-us .top-link {
+        padding: 2px 5px; 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .centered h1 {
+        font-size: 80px; 
+    }
+
+    .centered p {
+        font-size: 24px; 
+    }
+
+    .social-icon {
+        margin: 0 30px; 
+    }
+
+    .social-icon img {
+        width: 30px; 
+    }
+
+    p {
+        font-size: 12px; 
+    }
+
+    .play-button {
+        padding: 15px 25px; 
+        font-size: 16px; 
+    }
+
+    .about-us {
+        margin-left: 5px; 
+    }
+
+    .header {
+        padding: 3px 8px; 
+    }
+
+    .profile img {
+        width: 25px; 
+        height: 25px;
+    }
+
+    .login-buttons {
+        text-align: center; 
+    }
+
+    .about-us .top-link {
+        padding: 2px 5px; 
+        font-size: 10px; 
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+    .centered h1 {
+        font-size: 120px; 
+    }
+
+    .centered p {
+        font-size: 36px; 
+    }
+
+    .social-icon {
+        margin: 0 50px; 
+    }
+
+    .social-icon img {
+        width: 40px; 
+    }
+
+    p {
+        font-size: 14px; 
+    }
+
+    .play-button {
+        padding: 20px 30px; 
+        font-size: 24px; 
+    }
+
+    .about-us {
+        margin-left: 10px; 
+    }
+
+    .header {
+        padding: 5px 10px; 
+    }
+
+    .profile img {
+        width: 30px; 
+        height: 30px; 
+    }
+
+    .login-buttons {
+        text-align: center;
+    }
+
+    .about-us .top-link {
+        padding: 3px 8px; 
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1367px) {
+    .centered h1 {
+        font-size: 150px; 
+    }
+
+    .centered p {
+        font-size: 48px;
+    }
+
+    .social-icon {
+        margin: 0 70px; 
+    }
+
+    .social-icon img {
+        width: 50px; 
+    }
+
+    p {
+        font-size: 16px; 
+    }
+
+    .play-button {
+        padding: 25px 35px; 
+        font-size: 28px; 
+    }
+
+    .about-us {
+        margin-left: 20px; 
+    }
+
+    .header {
+        padding: 10px 20px; 
+    }
+
+    .profile img {
+        width: 40px; 
+        height: 40px; 
+    }
+
+    .login-buttons {
+        text-align: right; 
+    }
+
+    .about-us .top-link {
+        padding: 5px 10px; 
+        font-size: 14px; 
+    }
+}

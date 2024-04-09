@@ -1,0 +1,149 @@
+.black-background {
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-sheet {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.third-white-sheet {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 1400px; 
+    margin: 20px;
+}
+
+.white-sheet img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-me-content p,
+.about-me-content h2 {
+    font-family: cursive;
+}
+
+.project {
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.project h2 {
+    font-family: cursive;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.project h3 {
+    font-family: cursive;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-family: cursive;
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-family: cursive;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.work-experience {
+    font-family: cursive;
+    margin-top: 20px; 
+}
+
+.company {
+    margin-bottom: 30px;
+}
+
+.company h3 {
+    font-family: cursive; 
+}
+
+.company p {
+    margin-bottom: 10px; 
+}
+
+.company ul {
+    list-style-type: disc; 
+    margin-left: 20px;
+}
+
+.company ul li {
+    margin-bottom: 5px; 
+}
+
+.fourth-white-sheet ul li {
+    font-family: cursive;
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.fourth-white-sheet ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #007bff;
+}
+.fourth-white-sheet {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 1400px; 
+    margin: 20px;
+}
+.fourth-white-sheet ul li a:hover {
+    text-decoration: underline;
+}
+.about-me,
+.contact-me,
+.recent-works {
+    color: #333;
+    font-family: cursive;
+    font-size: 15px;
+    display: inline-block; 
+    margin: 0 20px; 
+}
+
+.contact-me {
+    margin-left: 40px; 
+}
+
+.recent-works {
+    margin-right: 40px; 
+}
+
